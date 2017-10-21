@@ -1,0 +1,6 @@
+/db
+/craft/*
+!/craft/templates/
+!/craft/config
+/craft/config/*
+!/craft/config/db.php

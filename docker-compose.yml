@@ -12,7 +12,8 @@ services:
     links:
       - "mariadb:mariadb"
     volumes:
-      - "./craft:/usr/share/nginx/html"
+      - "./index:/usr/share/nginx/html"
+      - "./craft:/usr/share/nginx/craft"
     working_dir: "/usr/share/nginx/html"
 
   blog-static:

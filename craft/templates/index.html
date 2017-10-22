@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
 
-      {% set main = craft.entries.section('homepage').first() %}
+      {% set main = craft.entries.section('homepage').first() %} {% set contacts = craft.entries.section('contacts').first() %}
 
       <div class="eight columns">
         <h2>
@@ -14,14 +14,10 @@
       </div>
 
       <div class="four columns">
-        <h2>Recent News</h2>
-        <ul>
-          {% for entry in craft.entries.section('news').limit(5).find() %}
-          <li>
-            <a href="{{ entry.url }}">{{ entry.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
+        <h3>
+          {{ contacts.title }}
+        </h3>
+        {{ contacts.body }}
       </div>
 
     </div>

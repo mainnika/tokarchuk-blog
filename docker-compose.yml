@@ -12,7 +12,7 @@ services:
     links:
       - "mariadb:mariadb"
     volumes:
-      - "./index:/usr/share/nginx/html"
+      - "./public/index.php:/usr/share/nginx/html/index.php"
       - "./craft:/usr/share/nginx/craft"
     working_dir: "/usr/share/nginx/html"
 

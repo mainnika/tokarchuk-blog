@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{% if title is defined %}{{ title }} - {% endif %}{{ siteName }}</title>
 	<link rel="home" href="{{ siteUrl }}" />
 	<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
@@ -17,11 +17,13 @@
 	<div class="section header">
 		<div class="container">
 			<div class="row">
-				<header id="header">
-					<h1>
-						<a href="{{ siteUrl }}">{{ siteName }}</a>
-					</h1>
-				</header>
+				<div class="header-container">
+					<header id="header">
+						<h1>
+							<a href="{{ siteUrl }}">{{ siteName }}</a>
+						</h1>
+					</header>
+				</div>
 			</div>
 		</div>
 	</div>

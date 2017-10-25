@@ -1,0 +1,52 @@
+ul.social-icons {
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa {
+    padding: 1rem;
+    min-width: 1.6rem;
+    text-align: center;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #1EAEDB;
+}
+
+.fa-vk:hover {
+    background-color: #466991;
+}
+
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-github:hover {
+    background-color: #24292e;
+}
+
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+.fa-angellist:hover {
+    background-color: #e9eaec;
+    color: black;
+}
+
+.fa-xing:hover {
+    background-color: #B0D400;
+}
